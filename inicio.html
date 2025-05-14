@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de inicio</title>
+</head>
+<body>
+    <header>
+    <h1> LA FRUTA</h1>
+    <h2>Tienda de Frutas y Verduras</h2>
+    <p>Proporcionamos una amplia variedad de fruta y vegetales frescos.</p>
+    <h3>Comprar ahora</h3>
+    <nav>
+        <a href="frutas.html">Frutas</a> <br> <br>
+        <a href="verduras.html">Verduras</a> <br> <br>
+        <a href="fsecos.html">Frutos secos</a>
+    </nav>
+    </header>
+
+    <main>
+        <section id="historia" title="Historia de La Fruteria">
+            <article id="historia" title="Historia de La Fruteria">
+        <h2>Historia</h2>
+        <p>Todo comenzó con <strong>Don Ernesto</strong>, un hombre sencillo que cultivaba frutas en su pequeño huerto. 
+            Un día decidió vender lo que cosechaba en un puesto frente a su casa. Lo que empezó como 
+            un gesto humilde se convirtió en “La Fruta”, una frutería conocida por su frescura, cercanía 
+            y sabor a hogar. Hoy su familia sigue el legado, llevando fruta de calidad a cada mesa.</p>
+            </article>
+            <img src="imagenes/Donernesto.jpg" alt=" Don Ernesto" width="200" height="200">   
+        </section>
+        
+        <aside>
+            <h2>Recetas</h2>
+            <p>Visita nuestra sección de recetas saludables con frutas y verduras.</p>
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/f6LoHbrzVq4" 
+            title="Video de YouTube" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </aside>
+        <br>
+        <aside>
+            <video width="640" height="360" controls>
+                <source src="mp4/Ceviche.mp4" type="video/mp4">
+              </video>              
+        </aside>
+        <br>
+        <audio controls>
+            <source src="mp3/Chicken Salad.mp3" type="audio/mpeg">
+            Tu navegador no soporta la etiqueta de audio.
+          </audio>
+        <br>          
+        <section id="contacto" title="Contacto">
+            <h2><em>Contacta con nosotros</em></h2>
+            <p>Envianos un mensaje.</p>
+            <form action="" id="contacto" title="Contacto"></form>
+            <div>
+                <label for="">Nombre</label>
+                <input style=" background-color: bisque;" type="text" name="nombre" id="nombre" required minlength="3" maxlength="20" pattern="[A-Za-z\s]+">
+            </div>
+            <br>
+            <div>
+                <label for="">Apelido</label>
+                <input style=" background-color: bisque;" type="text" name="apellido" id="apellido" required minlength="3" maxlength="20" pattern="[A-Za-z\s]+">
+            </div>
+            <br>
+            <div>
+                <label for="">Email</label>
+                <input style=" background-color: bisque;" type="email" name="email" id="email" required minlength="5" maxlength="30" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+            </div>
+            <br>
+            <div>
+                <label for="">Teléfono</label>
+                <input style=" background-color: bisque;" type="tel" name="telefono" id="telefono" required minlength="10" maxlength="15" pattern="[0-9]{10,15}">
+            </div>
+            <br>
+            <div>
+            <label for="">Desde donde nos escribes:</label>
+            <select style=" background-color: bisque;" name="" id="pais" required>
+                <option value="">Selecciona un Pais</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Peru">Peru</option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Paraguay">Paraguay</option>
+            </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Mensaje</label>
+                <textarea style=" background-color: bisque;" name="mensaje" id="mensaje" required minlength="10" maxlength="200"></textarea>
+            </div>
+            <br>
+            <button type="submit" >Enviar</button>
+            <button type="reset" >Limpiar</button>
+            </button>
+        </section>
+        <main>
+            <footer>
+                <p> <small>2025 La Fruta. Todos los derechos reservados.</small></p>
+            </footer>
+        </main>
+
+</body>
+</html>
